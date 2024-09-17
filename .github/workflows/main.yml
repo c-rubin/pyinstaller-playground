@@ -15,6 +15,7 @@ jobs:
       with:
         python_ver: 3.11
         requirements: requirements.txt
-        py: main.py
+        # py: main.py
+        spec: -
         exe_path: ./dist
         upload_exe_with_name: some_exe
